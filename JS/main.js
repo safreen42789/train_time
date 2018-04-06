@@ -60,5 +60,5 @@ var config = {
         }
 
       // add each train's data into table 
-      $('#train-table > tbody').append('<tr><td>' + tName + '</td><td>' + tDestination + '</td><td>' + tFrequency + '</td><td>' + tFirstTrain + '</td><tr');
+      $('#train-table > tbody').append('<tr><td>' + tName + '</td><td>' + tDestination + '</td><td>' + tFrequency + '</td><td>' + tArrival + '</td><td>' + tMinutes + '</td><tr');
   });
